@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+	<meta charset="utf-8" />
+	<title>Wicket Home Page</title>
+	<link rel="stylesheet" href="style.css"
+		type="text/css" media="screen" title="Stylesheet" />
+</head>
+<body>
+	<h1 wicket:id="title">Wicket Sample</h1>
+    <h2>Page List</h2>
+	<form wicket:id="form1">
+		<table border="1">
+			<tr>
+				<th></th>
+				<th>サイト名</th>
+			</tr>
+			<tr wicket:id="listview">
+				<td><input type="checkbox" wicket:id="bool" /></td>
+				<td wicket:id="siteNameLabel"></td>
+			</tr>
+		</table>
+		<input type="submit" wicket:id="submit" value="削除" />
+	</form>
+</body>
+</html>

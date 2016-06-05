@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+	<meta charset="utf-8" />
+	<title>Wicket Home Page</title>
+	<link rel="stylesheet" href="style.css"
+		type="text/css" media="screen" title="Stylesheet" />
+</head>
+<body>
+	<h1 wicket:id="title">Wicket Sample</h1>
+	<div wicket:id="error"></div>
+	<form wicket:id="form1">
+		<p>サイト名:<input type="text" wicket:id="inputSiteName" /></p>
+		<p>URL:<input type="text" wicket:id="inputSiteUrl" /></p>
+		<input type="submit" wicket:id="submit" value="登録" />
+	</form>
+</body>
+</html>
